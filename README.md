@@ -17,7 +17,7 @@ Delivery confirmation features will be added for buyers to confirm delivery.
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**New Masan Website:** https://github.com/alecortega/palettable
+**New Masan Website:** https://masan-construction.vercel.app/
 
 **Feedback website:** https://github.com/adeymoe/myCodeStoryFeedback
 
