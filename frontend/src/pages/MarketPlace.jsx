@@ -32,26 +32,29 @@ const MarketPlace = () => {
   }
 
   const applyFilter = () => {
-
-    let productsCopy = products.slice();
-
-    if(showSearch && search){
-      productsCopy= productsCopy.filter(item => item.name.toLowerCase().includes(search.toLowerCase()))
-
+    let productsCopy = products.slice().reverse(); // reverse to show newest first
+  
+    if (showSearch && search) {
+      productsCopy = productsCopy.filter(item =>
+        item.name.toLowerCase().includes(search.toLowerCase())
+      );
     }
-
-    if(category.length > 0){
-      productsCopy = productsCopy.filter(item => category.includes(item.category));
-
+  
+    if (category.length > 0) {
+      productsCopy = productsCopy.filter(item =>
+        category.includes(item.category)
+      );
     }
-
-    if(subCategory.length > 0){
-
-      productsCopy = productsCopy.filter(item => subCategory.includes(item.subCategory));
+  
+    if (subCategory.length > 0) {
+      productsCopy = productsCopy.filter(item =>
+        subCategory.includes(item.subCategory)
+      );
     }
-
-    setFilterProducts(productsCopy); 
-  }
+  
+    setFilterProducts(productsCopy);
+  };
+  
 
   const sortProduct =() => {
     let filterProductsCopy = filterProducts.slice();
