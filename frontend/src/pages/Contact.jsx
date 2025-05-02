@@ -16,7 +16,7 @@ const Contact = () => {
         <div className='flex flex-col items-start justify-center gap-6'>
           <p className='text-xl font-semibold text-gray-600'>Our Store</p>
           <p className='text-gray-500'>10 Dosumu Aina Estate <br /> Gbagada, Lagos Nigeria</p>
-          <p className='text-gray-500'>Tel: +234 8022 2222 <br /> Email: contact@marketplace.com</p>
+          <p className='text-gray-500'>Tel: +234 8022 1212 <br /> Email: contact@marketplace.com</p>
           <p className='text-xl font-semibold text-gray-600'>Become Our Dispatcher</p>
           <p className='text-gray-500'>Learn more about our teams and job openings.</p>
           <button className='px-8 py-4 text-sm transition-all duration-500 border border-black hover:bg-black hover:text-white'>Explore Jobs</button>

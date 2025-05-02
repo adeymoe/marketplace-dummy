@@ -13,10 +13,12 @@ const About = () => {
       <div className='flex flex-col gap-16 my-10 md:flex-row'>
         <img src={assets.about_img} className='w-full md:max-w-[450px]' alt="" />
         <div className='flex flex-col justify-center gap-6 text-gray-600 md:w-2/4'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quam officia eum ea molestias reiciendis consequuntur, eveniet pariatur, quos animi ullam culpa nulla vitae, fugiat alias ab illum nobis. Unde. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora omnis vero aliquam. Magnam et ea consequatur modi, incidunt repudiandae sequi dolore, officia illum distinctio animi id molestias sed, delectus qui.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse eum ad dolores, quasi et, iure, omnis officia aut necessitatibus autem magnam. Minima vero, corrupti fugiat magni aliquam labore sint.</p>
+          <p>Welcome to Marketplace — a smart, secure, and user-centered digital marketplace built under Rasakat International. We are on a mission to revolutionize the way people discover, buy, and sell quality products and services across borders.
+          Rooted in excellence and innovation, Marketplace offers a seamless experience that bridges the gap between sellers and buyers through intuitive design, real-time communication, and reliable logistics. Whether you're an artisan, entrepreneur, or everyday shopper, our platform empowers you to connect, trade, and grow with confidence.</p>
+          <p>At Rasakat International, we believe in elevating local talent to global opportunities. Our marketplace is more than just a transaction hub — it's a thriving community where trust, transparency, and growth meet.
+          Join us and be part of the digital commerce revolution.</p>
           <b className='text-gray-800'>OUR MISSION</b>
-          <p>Our mission at marketplace Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis maxime cupiditate consequuntur expedita soluta sequi laborum ad voluptas minima, itaque quasi! Iste ipsa sint, distinctio accusamus at necessitatibus minus doloribus!</p>
+          <p>Our mission at Marketplace is to empower individuals and businesses by providing a secure, accessible, and innovative platform for digital commerce. We aim to simplify the buying and selling experience, foster economic growth, and connect communities by unlocking opportunities in local and global markets — all under the vision and integrity of Rasakat International.</p>
         </div>
       </div>
 
@@ -27,15 +29,15 @@ const About = () => {
       <div className='flex flex-col mb-20 text-sm md:flex-row'>
         <div className='flex flex-col gap-5 px-10 py-8 border md:px-16 sm:py-20'>
           <b>Buyer's Protection:</b>
-          <p className='text-gray-600'>We Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate magni perspiciatis quas. Voluptatum odio dolore ut quo. Similique, saepe eligendi iure illo doloremque odit quos. Voluptatem expedita impedit beatae?</p>
+          <p className='text-gray-600'>Shop with confidence. We ensure you get the product you ordered or your money back — no hassle, no risk.</p>
         </div>
         <div className='flex flex-col gap-5 px-10 py-8 border md:px-16 sm:py-20'>
           <b>Convenience:</b>
-          <p className='text-gray-600'>We Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate magni perspiciatis quas. Voluptatum odio dolore ut quo. Similique, saepe eligendi iure illo doloremque odit quos. Voluptatem expedita impedit beatae?</p>
+          <p className='text-gray-600'>We safeguard sellers by verifying buyers and handling disputes fairly, so you can focus on growing your business.</p>
         </div>
         <div className='flex flex-col gap-5 px-10 py-8 border md:px-16 sm:py-20'>
           <b>Swift Delivery:</b>
-          <p className='text-gray-600'>We Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate magni perspiciatis quas. Voluptatum odio dolore ut quo. Similique, saepe eligendi iure illo doloremque odit quos. Voluptatem expedita impedit beatae?</p>
+          <p className='text-gray-600'>Our platform is built for ease — simple navigation, fast transactions, and smooth communication between buyers and sellers.</p>
         </div>
       </div>
 

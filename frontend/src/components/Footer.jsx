@@ -9,7 +9,7 @@ const Footer = () => {
             <div>
                 <img src='https://s2.svgbox.net/materialui.svg?ic=add_a_photo' className='mb-5 w-32' alt="" />
                 <p className='w-full md:w-2/3 text-gray-600'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, praesentium et! Veniam iste blanditiis et dicta, architecto mollitia? Illum repudiandae totam tenetur? Modi blanditiis, culpa sequi ducimus voluptas iusto! Tenetur?
+                    
                 </p>
             </div>
 

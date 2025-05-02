@@ -35,7 +35,7 @@ const Login = () => {
           localStorage.setItem('token', response.data.token)
           
         }else{
-          toast(response.data.message)
+          toast.error(response.data.message)
         }
         
       }
